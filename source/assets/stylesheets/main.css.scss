@@ -1,9 +1,17 @@
 // First, import all the custom variables
 @import 'vars/all';
-// Then, import the components
+// Then, import the components and pages
 @import 'components/all';
+@import 'pages/all';
 
 // Resets and general stuff
 body {
   background-color: $background;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }

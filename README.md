@@ -16,7 +16,7 @@ For this reason, we've created this boilerplate with the basic configuration of 
 * HAML template engine
 * A `Dockerfile` and a `docker-compose` file to run the project with one command
 
-We recommend you the [middlemant documentation site](https://middlemanapp.com/basics/install/). There you will find useful tutorials, videos and advanced configuration guides.
+We recommend you the [middleman documentation site](https://middlemanapp.com/basics/install/). There you will find useful tutorials, videos and advanced configuration guides.
 
 ## Structure
 
