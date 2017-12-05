@@ -12,6 +12,13 @@ body {
   min-height: 100vh;
 }
 
+// Reduce the font-size on mobile version
+@media (max-width: 29.9375em) {
+  html {
+    font-size: 90%;
+  }
+}
+
 main {
   flex: 1;
 }

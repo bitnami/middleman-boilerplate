@@ -1,0 +1,82 @@
+---
+layout: landing
+---
+
+.OSHero
+  .gradient-135-brand.elevation-1
+    .container
+      = partial 'layouts/partials/header'
+      .OSHero__Content
+        %h1.type-color-light.margin-reset
+          = image_tag 'bitnami-white.svg', class: 'OSHero__Logo'
+        %h3.type-color-light.margin-t-reset
+          The middleman boilerplate you were looking for
+        .text-c.margin-t-bigger
+          %a.margin-h-normal.margin-b-normal.button.button-action{rel: 'noopener',
+            target: '_blank',
+            href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md'}
+            Get started
+          %a.margin-h-normal.margin-b-normal.button{rel: 'noopener', target: '_blank',
+            href: 'https://github.com/bitnami/middleman-boilerplate'}
+            GitHub
+      .OSHero__Bar.gradient-action.OSHero__Bar--pattern
+      .OSHero__Bar.gradient-225-action
+
+.container.container-small.margin-t-enormous
+  %h1
+    Why this boilerplate?
+  .row.collapse-b-tablet
+    .col-12
+      %p
+        At Bitnami we use middleman to create static sites for our products. From simple sites to
+        complex static applications, middleman fits all our requirements.
+      %p
+        For this reason, we've created this boilerplate with the basic configuration of our
+        static site projects.
+
+%section.gradient-45-brand.padding-v-enormous.margin-t-giant.elevation-1
+  .container
+    .row.align-center.collapse-b-tablet
+      .col-5
+        %h3.type-color-iron How does it work?
+        %p.type-color-iron
+          This boilerplate follows the basic structure of middleman projects. All the files
+          related to the site generation are place in the source folder. You only need to fork
+          the project and start using it. It also includes a docker-compose file, so you don't
+          need to install any extra library.
+      .col-1
+      .col-6
+        %iframe{src:"https://www.youtube-nocookie.com/embed/mfimauzFQvY?rel=0&amp;showinfo=0",
+                frameborder: "0", allowfullscreen: true, width:"100%", height:"315",
+                class: 'elevation-3'}
+
+.container.container-small.margin-v-giant
+  %h1 Get started
+  %p
+    Let's start with your next awesome project. Just fork this repository and start modifying the
+    content. You have several
+    = link_to "useful examples", "/examples"
+    in the repository. Don't forget to check them if you need some inspiration ;)
+  %p.margin-t-bigger.text-c.margin-reset
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://bitnami.github.io/middleman-boilerplate/examples'}
+      Structure
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md#structure'}
+      Structure
+    %span.type-color-iron /
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md#configuration'}
+      Configuration
+    %span.type-color-iron /
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md#development'}
+      Development
+    %span.type-color-iron /
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md#deployment'}
+      Deployment
+    %span.type-color-iron /
+    %a.margin-h-normal{rel: 'noopener', target: '_blank',
+      href: 'https://github.com/bitnami/middleman-boilerplate/blob/master/README.md#contributing'}
+      Contributing
