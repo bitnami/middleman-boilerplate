@@ -7,4 +7,4 @@ description: Different examples of the usage of the Bitnami Pattern Lib and the 
 
 We've created several examples you can check:
 
-* [Landing page](landing) ([Source code](https://github.com/bitnami/middleman-boilerplate/blob/master/source/landing.html.haml))
+* [Landing page](examples/landing) ([Source code](https://github.com/bitnami/middleman-boilerplate/blob/master/source/landing.html.haml))
