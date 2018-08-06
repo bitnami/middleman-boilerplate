@@ -2,11 +2,8 @@
   .row.collapse-b-tablet.align-center
     .col-4
       .OSHeader__Logo
-        = link_to '/index.html' do
-          = image_tag 'bitnami-white.svg', alt: 'Bitnami Logo'
+        / = link_to '/index.html' do
+        /   = image_tag 'bitnami-white.svg', alt: 'Bitnami Logo'
     .col-8
       %nav.text-r
         = link_to 'Home', '/index.html', class: 'margin-h-normal'
-        = link_to 'Examples', '/examples/index.html', class: 'margin-h-normal'
-        = link_to 'GitHub', 'https://github.com/bitnami/middleman-boilerplate',
-                  class: 'margin-l-normal', rel: 'noopener', target: '_blank'
