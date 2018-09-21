@@ -1,12 +1,12 @@
-// First, import all the custom variables
-@import 'vars/all';
+@import 'hex';
+
 // Then, import the components and pages
 @import 'components/all';
 @import 'pages/all';
 
 // Resets and general stuff
 body {
-  background-color: $background;
+  background-color: color('white');
   display: flex;
   flex-direction: column;
   min-height: 100vh;
