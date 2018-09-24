@@ -10,8 +10,22 @@ Haml::TempleEngine.disable_option_validator!
 # Use haml in this project
 set :haml, { format: :html5 }
 
+set :sass_assets_paths, ['.']
+
 # Remove .html in the URL
 activate :directory_indexes
+
+# activate :external_pipeline,
+#   name: :sass,
+#   command: build? ? 'yarn build' : 'yarn start',
+#   source: "./source/assets/stylesheets",
+#   latency: 1
+
+# enable livereload on development
+configure :development do
+  host = ENV['VIRTUAL_HOST'].present? ? ENV['VIRTUAL_HOST'] : '127.0.0.1'
+  activate :livereload, js_host: host, js_port: 35729
+end
 
 # Configure build environment
 configure :build do
