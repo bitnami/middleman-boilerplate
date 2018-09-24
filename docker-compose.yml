@@ -2,7 +2,8 @@ version: '2'
 
 services:
   middleman:
-    image: gcr.io/bitnami-containers/middleman-boilerplate:latest
+    image: middleman-boilerplate
+    build: .
     ports:
       - 4567:4567
       - 35729:35729
