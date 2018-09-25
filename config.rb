@@ -10,16 +10,11 @@ Haml::TempleEngine.disable_option_validator!
 # Use haml in this project
 set :haml, { format: :html5 }
 
+# Use the current directory to be able to use HEx helpers
 set :sass_assets_paths, ['.']
 
 # Remove .html in the URL
 activate :directory_indexes
-
-# activate :external_pipeline,
-#   name: :sass,
-#   command: build? ? 'yarn build' : 'yarn start',
-#   source: "./source/assets/stylesheets",
-#   latency: 1
 
 # enable livereload on development
 configure :development do
