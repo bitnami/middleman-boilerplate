@@ -68,7 +68,7 @@ GEM
       memoist (~> 0.14)
       padrino-helpers (~> 0.13.0)
       parallel
-      rack (>= 1.4.5, < 3)
+      rack (>= 2.0.6, < 3)
       sass (>= 3.4)
       servolux
       tilt (~> 2.0)
@@ -86,7 +86,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.12.0)
     public_suffix (3.0.0)
-    rack (2.0.3)
+    rack (2.0.6)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.10.2)
